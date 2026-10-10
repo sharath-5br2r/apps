@@ -1,19 +1,30 @@
 {
   "patches-version": "stable",
   "enable-module-update": true,
-  "RAR-rushiranpise-Experimental": {
-    "patches-source": "rushiranpise/morphe-patches",
-    "brand": "rushiranpise",
+  "Instagram-Piko-Clone": {
     "enabled": true,
-    "app-name": "RAR",
-    "sub-variant": "Experimental",
-    "version": "latest",
-    "patcher-args": "-f --continue-on-error",
-    "skip-patch-app-check": true,
-    "pkg-name": "com.rarlab.rar",
-    "apkmirror-dlurl": "https://www.apkmirror.com/apk/rar-lab/rar-for-android",
-    "uptodown-dlurl": "https://rar-for-android.en.uptodown.com/android",
-    "apkpure-dlurl": "https://apkpure.com/rar-extractor-manager/com.rarlab.rar",
-    "apkcombo-dlurl": "https://apkcombo.com/rar/com.rarlab.rar"
+    "pkg-name": "com.instagram.android",
+    "app-name": "Instagram",
+    "sub-variant": "Clone",
+    "patches-source": "crimera/piko",
+    "patches-version": "both",
+    "brand": "Piko",
+    "build-mode": "apk",
+    "arch": "arm64-v8a x86_64",
+    "included-patches": "'Clone'",
+    "apkmirror-dlurl": "https://www.apkmirror.com/apk/instagram/instagram-instagram",
+    "uptodown-dlurl": "https://instagram.en.uptodown.com/android"
+  },
+  "X-Piko": {
+    "enabled": true,
+    "pkg-name": "com.twitter.android",
+    "app-name": "X",
+    "patches-source": "crimera/piko",
+    "brand": "Piko",
+    "excluded-patches": "'Dynamic Color'",
+    "patcher-args": "--continue-on-error",
+    "uptodown-dlurl": "https://twitter.en.uptodown.com/android",
+    "apkmirror-dlurl": "https://www.apkmirror.com/apk/x-corp/twitter/",
+    "apkpure-dlurl": "https://apkpure.com/x-formerly-twitter/com.twitter.android"
   }
 }

@@ -1,80 +1,58 @@
 {
   "patches-version": "beta",
   "enable-module-update": true,
-  "IMDb-adobo": {
-    "patches-source": "jkennethcarino/adobo",
-    "brand": "adobo",
+  "SmashHit-Byehi98": {
     "enabled": true,
-    "pkg-name": "com.imdb.mobile",
-    "app-name": "IMDb",
-    "arch": "all",
-    "apkmirror-dlurl": "https://www.apkmirror.com/apk/imdb/imdb-imdb",
-    "uptodown-dlurl": "https://imdb-cine-tv.en.uptodown.com/android",
-    "apkpure-dlurl": "https://apkpure.com/imdb-movies-tv-shows-app/com.imdb.mobile",
-    "apkcombo-dlurl": "https://apkcombo.com/imdb/com.imdb.mobile"
+    "app-name": "Smash Hit",
+    "pkg-name": "com.mediocre.smashhit",
+    "uptodown-dlurl": "https://smash-hit.en.uptodown.com/android",
+    "apkmirror-dlurl": "https://www.apkmirror.com/apk/mediocre/smash-hit/"
   },
-  "HillClimbRacing-Byehi98": {
+  "Vector-Byehi98-Experimental": {
     "enabled": true,
-    "app-name": "Hill Climb Racing",
-    "arch": "arm64-v8a armeabi-v7a",
-    "pkg-name": "com.fingersoft.hillclimb",
-    "uptodown-dlurl": "https://hill-climb-racing.en.uptodown.com/android",
-    "apkmirror-dlurl": "https://www.apkmirror.com/apk/fingersoft/hill-climb-racing/"
-  },
-  "HillClimbRacing-Byehi98-Experimental": {
-    "enabled": true,
-    "app-name": "Hill Climb Racing",
+    "app-name": "Vector",
     "sub-variant": "Experimental",
     "version": "latest",
     "patcher-args": "-f --continue-on-error",
     "skip-patch-app-check": true,
-    "arch": "arm64-v8a armeabi-v7a",
-    "pkg-name": "com.fingersoft.hillclimb",
-    "apkmirror-dlurl": "https://www.apkmirror.com/apk/fingersoft/hill-climb-racing/",
-    "uptodown-dlurl": "https://hill-climb-racing.en.uptodown.com/android"
+    "pkg-name": "com.nekki.vector",
+    "apkmirror-dlurl": "https://www.apkmirror.com/apk/nekki/vector/",
+    "uptodown-dlurl": "https://vector.en.uptodown.com/android"
   },
-  "Reddit-Morphe": {
+  "BraveBrowser-Kveld9-Experimental": {
+    "patches-source": "kveld9/kveld-morphe-patches",
+    "brand": "kveld9",
     "enabled": true,
-    "pkg-name": "com.reddit.frontpage",
-    "app-name": "Reddit",
-    "patches-source": "MorpheApp/morphe-patches",
-    "brand": "Morphe",
-    "patches-version": "both",
-    "build-mode": "both",
-    "apkmirror-dlurl": "https://apkmirror.com/apk/redditinc/reddit",
-    "uptodown-dlurl": "https://reddit-official-app.en.uptodown.com/android",
-    "apkpure-dlurl": "https://apkpure.com/reddit-app/com.reddit.frontpage",
-    "apkcombo-dlurl": "https://apkcombo.com/reddit/com.reddit.frontpage",
-    "archive-dlurl": "https://archive.org/download/geologically/apks/com.reddit.frontpage"
-  },
-  "YouTubeMusic-Morphe-Experimental": {
-    "enabled": true,
-    "pkg-name": "com.google.android.apps.youtube.music",
-    "app-name": "YouTube Music",
-    "patches-source": "MorpheApp/morphe-patches",
-    "brand": "Morphe",
+    "app-name": "Brave Browser",
     "sub-variant": "Experimental",
-    "build-mode": "both",
+    "version": "latest",
+    "patcher-args": "-f --continue-on-error",
+    "skip-patch-app-check": true,
     "arch": "arm64-v8a x86_64 armeabi-v7a x86",
-    "version": "exp",
-    "included-patches": "'Theme'",
-    "uptodown-dlurl": "https://youtube-music.en.uptodown.com/android",
-    "apkmirror-dlurl": "https://apkmirror.com/apk/google-inc/youtube-music",
-    "apkpure-dlurl": "https://apkpure.com/youtube-music/com.google.android.apps.youtube.music",
-    "apkcombo-dlurl": "https://apkcombo.com/youtube-music/com.google.android.apps.youtube.music"
+    "pkg-name": "com.brave.browser",
+    "patch-brand": "Kveld9",
+    "github-dlurl": "https://github.com/brave/brave-browser/releases"
   },
-  "YouTube-Morphe-AMOLED-Experimental": {
+  "TikTok-Kveld9": {
+    "enabled": true,
+    "app-name": "TikTok",
+    "pkg-name": "com.zhiliaoapp.musically",
+    "patch-brand": "Kveld9",
+    "arch": "all arm64-v8a armeabi-v7a",
+    "uptodown-dlurl": "https://tiktok.en.uptodown.com/android",
+    "apkmirror-dlurl": "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly",
+    "apkpure-dlurl": "https://apkpure.com/tiktok-app/com.zhiliaoapp.musically",
+    "apkcombo-dlurl": "https://apkcombo.com/tiktok-videos-shop-live/com.zhiliaoapp.musically",
+    "patches-source": "kveld9/kveld-morphe-patches"
+  },
+  "YouTube-Morphe": {
     "enabled": true,
     "pkg-name": "com.google.android.youtube",
     "app-name": "YouTube",
     "patches-source": "MorpheApp/morphe-patches",
     "brand": "Morphe",
-    "variant": "AMOLED",
-    "sub-variant": "Experimental",
     "build-mode": "both",
-    "version": "exp",
     "included-patches": "'Theme'",
-    "patcher-args": "-OdarkThemeBackgroundColor=#000000 -OlightThemeBackgroundColor=#FFFFFF",
     "uptodown-dlurl": "https://youtube.en.uptodown.com/android",
     "apkmirror-dlurl": "https://apkmirror.com/apk/google-inc/youtube",
     "apkpure-dlurl": "https://apkpure.com/youtube-app/com.google.android.youtube",

@@ -1,18 +1,1 @@
-{
-  "patches-version": "both",
-  "enable-module-update": true,
-  "PicsArt-rushiranpise-Experimental": {
-    "patches-source": "rushiranpise/morphe-patches",
-    "brand": "rushiranpise",
-    "enabled": true,
-    "app-name": "PicsArt",
-    "sub-variant": "Experimental",
-    "version": "latest",
-    "patcher-args": "-f --continue-on-error",
-    "skip-patch-app-check": true,
-    "arch": "all",
-    "pkg-name": "com.picsart.studio",
-    "uptodown-dlurl": "https://picsart-estudio.en.uptodown.com/android",
-    "apkcombo-dlurl": "https://apkcombo.com/picsart/com.picsart.studio"
-  }
-}
+{}

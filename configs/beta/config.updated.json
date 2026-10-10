@@ -1,44 +1,5 @@
 {
   "patches-version": "beta",
-  "IMDb-adobo": {
-    "patches-source": "jkennethcarino/adobo",
-    "brand": "adobo",
-    "enabled": true,
-    "pkg-name": "com.imdb.mobile",
-    "app-name": "IMDb",
-    "arch": "all",
-    "apkmirror-dlurl": "https://www.apkmirror.com/apk/imdb/imdb-imdb",
-    "uptodown-dlurl": "https://imdb-cine-tv.en.uptodown.com/android",
-    "apkpure-dlurl": "https://apkpure.com/imdb-movies-tv-shows-app/com.imdb.mobile",
-    "apkcombo-dlurl": "https://apkcombo.com/imdb/com.imdb.mobile"
-  },
-  "IMDb-adobo-Experimental": {
-    "patches-source": "jkennethcarino/adobo",
-    "brand": "adobo",
-    "enabled": true,
-    "app-name": "IMDb",
-    "sub-variant": "Experimental",
-    "version": "latest",
-    "patcher-args": "-f --continue-on-error",
-    "skip-patch-app-check": true,
-    "arch": "all",
-    "pkg-name": "com.imdb.mobile",
-    "apkmirror-dlurl": "https://www.apkmirror.com/apk/imdb/imdb-imdb",
-    "uptodown-dlurl": "https://imdb-cine-tv.en.uptodown.com/android",
-    "apkpure-dlurl": "https://apkpure.com/imdb-movies-tv-shows-app/com.imdb.mobile",
-    "apkcombo-dlurl": "https://apkcombo.com/imdb/com.imdb.mobile"
-  },
-  "SwiftBackup-byehi98": {
-    "enabled": true,
-    "pkg-name": "org.swiftapps.swiftbackup",
-    "app-name": "Swift Backup",
-    "patches-source": "byehi98/okish-morphe-patches",
-    "brand": "byehi98",
-    "uptodown-dlurl": "https://swift-backup.en.uptodown.com/android",
-    "apkmirror-dlurl": "https://www.apkmirror.com/apk/swiftapps-org/swift-backup",
-    "apkpure-dlurl": "https://apkpure.com/swift-backup/org.swiftapps.swiftbackup",
-    "apkcombo-dlurl": "https://apkcombo.com/swift-backup/org.swiftapps.swiftbackup"
-  },
   "SmashHit-Byehi98": {
     "enabled": true,
     "app-name": "Smash Hit",
@@ -68,21 +29,6 @@
     "uptodown-dlurl": "https://jetpack-joyride.en.uptodown.com/android",
     "apkmirror-dlurl": "https://www.apkmirror.com/apk/halfbrick-studios/jetpack-joyride/",
     "apkmirror-example-url": "https://www.apkmirror.com/apk/halfbrick-studios/jetpack-joyride/jetpack-joyride-1-104-1-release/"
-  },
-  "SwiftBackup-byehi98-Experimental": {
-    "enabled": true,
-    "app-name": "Swift Backup",
-    "sub-variant": "Experimental",
-    "version": "latest",
-    "patcher-args": "-f --continue-on-error",
-    "skip-patch-app-check": true,
-    "pkg-name": "org.swiftapps.swiftbackup",
-    "patches-source": "byehi98/okish-morphe-patches",
-    "brand": "byehi98",
-    "apkmirror-dlurl": "https://www.apkmirror.com/apk/swiftapps-org/swift-backup",
-    "uptodown-dlurl": "https://swift-backup.en.uptodown.com/android",
-    "apkpure-dlurl": "https://apkpure.com/swift-backup/org.swiftapps.swiftbackup",
-    "apkcombo-dlurl": "https://apkcombo.com/swift-backup/org.swiftapps.swiftbackup"
   },
   "SmashHit-Byehi98-Experimental": {
     "enabled": true,
@@ -139,6 +85,33 @@
     "apkmirror-dlurl": "https://www.apkmirror.com/apk/instagram/instagram-instagram",
     "apkmirror-example-url": "https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-439-0-0-37-89-release/"
   },
+  "BraveBrowser-Kveld9": {
+    "patches-source": "kveld9/kveld-morphe-patches",
+    "brand": "kveld9",
+    "enabled": true,
+    "app-name": "Brave Browser",
+    "patch-brand": "Kveld9",
+    "arch": "arm64-v8a x86_64 armeabi-v7a x86",
+    "pkg-name": "com.brave.browser",
+    "patcher-args": "--continue-on-error",
+    "github-dlurl": "https://github.com/brave/brave-browser/releases",
+    "github-asset-regex": "arm64-v8a: BraveMonoarm64\\.apk$ | armeabi-v7a: BraveMonoarm\\.apk$ | x86_64: BraveMonox64\\.apk$ | x86: BraveMonox86\\.apk$",
+    "github-release-name-regex": "^Release v"
+  },
+  "BraveBrowser-Kveld9-Experimental": {
+    "patches-source": "kveld9/kveld-morphe-patches",
+    "brand": "kveld9",
+    "enabled": true,
+    "app-name": "Brave Browser",
+    "sub-variant": "Experimental",
+    "version": "latest",
+    "patcher-args": "-f --continue-on-error",
+    "skip-patch-app-check": true,
+    "arch": "arm64-v8a x86_64 armeabi-v7a x86",
+    "pkg-name": "com.brave.browser",
+    "patch-brand": "Kveld9",
+    "github-dlurl": "https://github.com/brave/brave-browser/releases"
+  },
   "Pinterest-Browzomje": {
     "enabled": true,
     "app-name": "Pinterest",
@@ -186,33 +159,30 @@
     "apkpure-dlurl": "https://apkpure.com/reddit-app/com.reddit.frontpage",
     "apkcombo-dlurl": "https://apkcombo.com/reddit/com.reddit.frontpage"
   },
-  "Reddit-adobo": {
+  "TikTok-Kveld9": {
     "enabled": true,
-    "pkg-name": "com.reddit.frontpage",
-    "app-name": "Reddit",
-    "patches-source": "jkennethcarino/adobo",
-    "brand": "adobo",
-    "apkmirror-dlurl": "https://apkmirror.com/apk/redditinc/reddit",
-    "uptodown-dlurl": "https://reddit-official-app.en.uptodown.com/android",
-    "apkpure-dlurl": "https://apkpure.com/reddit-app/com.reddit.frontpage",
-    "apkcombo-dlurl": "https://apkcombo.com/reddit/com.reddit.frontpage",
-    "archive-dlurl": "https://archive.org/download/geologically/apks/com.reddit.frontpage"
+    "app-name": "TikTok",
+    "pkg-name": "com.zhiliaoapp.musically",
+    "patch-brand": "Kveld9",
+    "arch": "all arm64-v8a armeabi-v7a",
+    "uptodown-dlurl": "https://tiktok.en.uptodown.com/android",
+    "apkmirror-dlurl": "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly",
+    "apkpure-dlurl": "https://apkpure.com/tiktok-app/com.zhiliaoapp.musically",
+    "apkcombo-dlurl": "https://apkcombo.com/tiktok-videos-shop-live/com.zhiliaoapp.musically",
+    "patches-source": "kveld9/kveld-morphe-patches"
   },
-  "Reddit-adobo-Experimental": {
+  "TikTok-Kveld9-Asia": {
     "enabled": true,
-    "app-name": "Reddit",
-    "sub-variant": "Experimental",
-    "version": "latest",
-    "patcher-args": "-f --continue-on-error",
-    "skip-patch-app-check": true,
-    "pkg-name": "com.reddit.frontpage",
-    "patches-source": "jkennethcarino/adobo",
-    "brand": "adobo",
-    "apkmirror-dlurl": "https://apkmirror.com/apk/redditinc/reddit",
-    "uptodown-dlurl": "https://reddit-official-app.en.uptodown.com/android",
-    "apkpure-dlurl": "https://apkpure.com/reddit-app/com.reddit.frontpage",
-    "apkcombo-dlurl": "https://apkcombo.com/reddit/com.reddit.frontpage",
-    "archive-dlurl": "https://archive.org/download/geologically/apks/com.reddit.frontpage"
+    "app-name": "TikTok",
+    "variant": "Asia",
+    "pkg-name": "com.ss.android.ugc.trill",
+    "patch-brand": "Kveld9",
+    "arch": "all arm64-v8a armeabi-v7a",
+    "uptodown-dlurl": "https://tik-tok.en.uptodown.com/android",
+    "apkmirror-dlurl": "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok",
+    "apkpure-dlurl": "https://apkpure.com/tiktok-asia-app/com.ss.android.ugc.trill",
+    "apkcombo-dlurl": "https://apkcombo.com/tiktok-asia/com.ss.android.ugc.trill",
+    "patches-source": "kveld9/kveld-morphe-patches"
   },
   "YouTubeMusic-Morphe": {
     "enabled": true,
