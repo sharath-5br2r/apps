@@ -1,0 +1,34 @@
+{
+  "patches-version": "stable",
+  "enable-module-update": true,
+  "ProtonMail-dhrubonai": {
+    "enabled": true,
+    "pkg-name": "ch.protonmail.android",
+    "app-name": "Proton Mail",
+    "patches-source": "dhrubonai/morphe-patches",
+    "brand": "dhrubonai",
+    "prefer-dl-mode": "bundle",
+    "dpi": "120-640dpi",
+    "apkmirror-dlurl": "https://apkmirror.com/apk/proton-technologies-ag/protonmail-encrypted-email",
+    "uptodown-dlurl": "https://protonmail.en.uptodown.com/android",
+    "apkpure-dlurl": "https://apkpure.com/proton-mail-encrypted-email/ch.protonmail.android",
+    "apkcombo-dlurl": "https://apkcombo.com/proton-mail/ch.protonmail.android",
+    "archive-dlurl": "https://archive.org/download/geologically/apks/ch.protonmail.android"
+  },
+  "X-Piko-MaterialYou-Experimental": {
+    "enabled": true,
+    "pkg-name": "com.twitter.android",
+    "app-name": "X",
+    "patches-source": "crimera/piko",
+    "brand": "Piko",
+    "variant": "Material You",
+    "sub-variant": "Experimental",
+    "version": "latest",
+    "skip-patch-app-check": true,
+    "included-patches": "'Dynamic Color'",
+    "patcher-args": "-f --continue-on-error",
+    "uptodown-dlurl": "https://twitter.en.uptodown.com/android",
+    "apkmirror-dlurl": "https://www.apkmirror.com/apk/x-corp/twitter/",
+    "apkpure-dlurl": "https://apkpure.com/x-formerly-twitter/com.twitter.android"
+  }
+}
