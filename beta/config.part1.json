@@ -1,0 +1,61 @@
+{
+  "patches-version": "beta",
+  "enable-module-update": true,
+  "SmashHit-Byehi98": {
+    "enabled": true,
+    "app-name": "Smash Hit",
+    "pkg-name": "com.mediocre.smashhit",
+    "uptodown-dlurl": "https://smash-hit.en.uptodown.com/android",
+    "apkmirror-dlurl": "https://www.apkmirror.com/apk/mediocre/smash-hit/"
+  },
+  "Vector-Byehi98-Experimental": {
+    "enabled": true,
+    "app-name": "Vector",
+    "sub-variant": "Experimental",
+    "version": "latest",
+    "patcher-args": "-f --continue-on-error",
+    "skip-patch-app-check": true,
+    "pkg-name": "com.nekki.vector",
+    "apkmirror-dlurl": "https://www.apkmirror.com/apk/nekki/vector/",
+    "uptodown-dlurl": "https://vector.en.uptodown.com/android"
+  },
+  "BraveBrowser-Kveld9-Experimental": {
+    "patches-source": "kveld9/kveld-morphe-patches",
+    "brand": "kveld9",
+    "enabled": true,
+    "app-name": "Brave Browser",
+    "sub-variant": "Experimental",
+    "version": "latest",
+    "patcher-args": "-f --continue-on-error",
+    "skip-patch-app-check": true,
+    "arch": "arm64-v8a x86_64 armeabi-v7a x86",
+    "pkg-name": "com.brave.browser",
+    "patch-brand": "Kveld9",
+    "github-dlurl": "https://github.com/brave/brave-browser/releases"
+  },
+  "TikTok-Kveld9": {
+    "enabled": true,
+    "app-name": "TikTok",
+    "pkg-name": "com.zhiliaoapp.musically",
+    "patch-brand": "Kveld9",
+    "arch": "all arm64-v8a armeabi-v7a",
+    "uptodown-dlurl": "https://tiktok.en.uptodown.com/android",
+    "apkmirror-dlurl": "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly",
+    "apkpure-dlurl": "https://apkpure.com/tiktok-app/com.zhiliaoapp.musically",
+    "apkcombo-dlurl": "https://apkcombo.com/tiktok-videos-shop-live/com.zhiliaoapp.musically",
+    "patches-source": "kveld9/kveld-morphe-patches"
+  },
+  "YouTube-Morphe": {
+    "enabled": true,
+    "pkg-name": "com.google.android.youtube",
+    "app-name": "YouTube",
+    "patches-source": "MorpheApp/morphe-patches",
+    "brand": "Morphe",
+    "build-mode": "both",
+    "included-patches": "'Theme'",
+    "uptodown-dlurl": "https://youtube.en.uptodown.com/android",
+    "apkmirror-dlurl": "https://apkmirror.com/apk/google-inc/youtube",
+    "apkpure-dlurl": "https://apkpure.com/youtube-app/com.google.android.youtube",
+    "apkcombo-dlurl": "https://apkcombo.com/youtube/com.google.android.youtube"
+  }
+}

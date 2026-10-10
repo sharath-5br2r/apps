@@ -1,0 +1,64 @@
+{
+  "patches-version": "beta",
+  "enable-module-update": true,
+  "HillClimbRacing-Byehi98": {
+    "enabled": true,
+    "app-name": "Hill Climb Racing",
+    "arch": "arm64-v8a armeabi-v7a",
+    "pkg-name": "com.fingersoft.hillclimb",
+    "uptodown-dlurl": "https://hill-climb-racing.en.uptodown.com/android",
+    "apkmirror-dlurl": "https://www.apkmirror.com/apk/fingersoft/hill-climb-racing/"
+  },
+  "JetpackJoyride-Byehi98-Experimental": {
+    "enabled": true,
+    "app-name": "Jetpack Joyride",
+    "sub-variant": "Experimental",
+    "version": "latest",
+    "patcher-args": "-f --continue-on-error",
+    "skip-patch-app-check": true,
+    "pkg-name": "com.halfbrick.jetpackjoyride",
+    "apkmirror-dlurl": "https://www.apkmirror.com/apk/halfbrick-studios/jetpack-joyride/",
+    "uptodown-dlurl": "https://jetpack-joyride.en.uptodown.com/android",
+    "apkmirror-example-url": "https://www.apkmirror.com/apk/halfbrick-studios/jetpack-joyride/jetpack-joyride-1-104-1-release/"
+  },
+  "Pinterest-Browzomje-Experimental": {
+    "enabled": true,
+    "app-name": "Pinterest",
+    "sub-variant": "Experimental",
+    "pkg-name": "com.pinterest",
+    "version": "latest",
+    "patcher-args": "-f --continue-on-error",
+    "skip-patch-app-check": true,
+    "uptodown-dlurl": "https://pinterest.en.uptodown.com/android",
+    "apkmirror-dlurl": "https://www.apkmirror.com/apk/pinterest/pinterest-one-destination-for-a-world-of-inspiration"
+  },
+  "YouTubeMusic-Morphe": {
+    "enabled": true,
+    "pkg-name": "com.google.android.apps.youtube.music",
+    "app-name": "YouTube Music",
+    "patches-source": "MorpheApp/morphe-patches",
+    "brand": "Morphe",
+    "patches-version": "both",
+    "build-mode": "both",
+    "patch-folder": "music",
+    "apkmirror-dlurl": "https://apkmirror.com/apk/google-inc/youtube-music",
+    "uptodown-dlurl": "https://youtube-music.en.uptodown.com/android",
+    "apkpure-dlurl": "https://apkpure.com/youtube-music/com.google.android.apps.youtube.music",
+    "apkcombo-dlurl": "https://apkcombo.com/youtube-music/com.google.android.apps.youtube.music"
+  },
+  "YouTube-Morphe-Experimental": {
+    "enabled": true,
+    "pkg-name": "com.google.android.youtube",
+    "app-name": "YouTube",
+    "patches-source": "MorpheApp/morphe-patches",
+    "brand": "Morphe",
+    "sub-variant": "Experimental",
+    "build-mode": "both",
+    "version": "exp",
+    "included-patches": "'Theme'",
+    "uptodown-dlurl": "https://youtube.en.uptodown.com/android",
+    "apkmirror-dlurl": "https://apkmirror.com/apk/google-inc/youtube",
+    "apkpure-dlurl": "https://apkpure.com/youtube-app/com.google.android.youtube",
+    "apkcombo-dlurl": "https://apkcombo.com/youtube/com.google.android.youtube"
+  }
+}
